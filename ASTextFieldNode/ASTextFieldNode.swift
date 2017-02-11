@@ -9,15 +9,15 @@
 import AsyncDisplayKit
 
 public class ASTextFieldNode : ASDisplayNode, UITextInputTraits {
-    let textFieldNode : ASDisplayNode
-    var textField : ASTextFieldView {
+    public let textFieldNode : ASDisplayNode
+    public var textField : ASTextFieldView {
         if self.textFieldNode.view is ASTextFieldView {
             return self.textFieldNode.view as! ASTextFieldView
         }
         return ASTextFieldView()
     }
     
-    var text : String? {
+    public var text : String? {
         get {
             return textField.text
         }
@@ -26,7 +26,7 @@ public class ASTextFieldNode : ASDisplayNode, UITextInputTraits {
         }
     }
     
-    var attributedText : NSAttributedString? {
+    public var attributedText : NSAttributedString? {
         get {
             return textField.attributedText
         }
@@ -107,7 +107,7 @@ public class ASTextFieldNode : ASDisplayNode, UITextInputTraits {
         }
     }
     
-    var contentInset : UIEdgeInsets {
+    public var contentInset : UIEdgeInsets {
         get {
             return textField.contentInset
         }
@@ -118,7 +118,7 @@ public class ASTextFieldNode : ASDisplayNode, UITextInputTraits {
         }
     }
     
-    var font : UIFont? {
+    public var font : UIFont? {
         get {
             return textField.font
         }

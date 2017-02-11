@@ -1,0 +1,4 @@
+github "pinterest/PINCache" "3.0.1-beta.2"
+github "pinterest/PINRemoteImage" "3.0.0-beta.6"
+github "facebook/AsyncDisplayKit" "2.1"
+github "pocketlabs/ASTextFieldNode" "0.1"

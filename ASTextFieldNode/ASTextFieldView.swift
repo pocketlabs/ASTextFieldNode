@@ -9,7 +9,7 @@
 import AsyncDisplayKit
 
 public class ASTextFieldView : UITextField {
-    var contentInset : UIEdgeInsets = UIEdgeInsets.zero
+    public var contentInset : UIEdgeInsets = UIEdgeInsets.zero
     
     override public func textRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(x: bounds.origin.x + self.contentInset.left, y: bounds.origin.y + self.contentInset.top, width: bounds.size.width - self.contentInset.left - self.contentInset.right, height: bounds.size.height - self.contentInset.top - self.contentInset.bottom)
