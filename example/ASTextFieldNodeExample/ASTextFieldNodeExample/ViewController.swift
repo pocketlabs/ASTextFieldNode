@@ -48,9 +48,13 @@ class LoginViewNode : ASDisplayNode {
         loginField.autocapitalizationType = .none
         loginField.autocorrectionType = .no
         loginField.keyboardType = .emailAddress
+        loginField.font = UIFont.systemFont(ofSize: 16.0)
+        loginField.textField.attributedPlaceholder = NSAttributedString(string: "you@domain.com", attributes: [NSForegroundColorAttributeName : UIColor.lightGray, NSFontAttributeName : UIFont.systemFont(ofSize: 16.0)])
         
         passwordField.isSecureTextEntry = true
         passwordField.keyboardType = .asciiCapable
+        passwordField.font = UIFont.systemFont(ofSize: 16.0)
+        passwordField.textField.attributedPlaceholder = NSAttributedString(string: "******", attributes: [NSForegroundColorAttributeName : UIColor.lightGray, NSFontAttributeName : UIFont.systemFont(ofSize: 16.0)])
     }
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
