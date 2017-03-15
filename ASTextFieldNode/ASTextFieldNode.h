@@ -28,8 +28,8 @@ FOUNDATION_EXPORT const unsigned char ASTextFieldNodeVersionString[];
 @property (nonatomic, retain) ASTextFieldView* textField;
 
 @property (nonatomic, assign) NSString* text;
-@property (nonatomic, assign) NSString* attributedText;
-@property (nonatomic, assign) NSString* attributedPlaceholder;
+@property (nonatomic, assign) NSAttributedString* attributedText;
+@property (nonatomic, assign) NSAttributedString* attributedPlaceholder;
 @property (nonatomic, assign) UIFont* font;
 @property (nonatomic, assign) UIColor* textColor;
 
