@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ASTextFieldNode"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "UITextField wrapper for AsyncDisplayKit."
   s.description  = <<-DESC
   UITextField wrapper for AsyncDisplayKit that can handle secure text entry.  Alternative to ASEditableTextNode.
