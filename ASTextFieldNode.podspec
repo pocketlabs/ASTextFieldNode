@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.author             = { "Kyle Shank" => "kyle.shank@gmail.com" }
   s.source       = { :git => "https://github.com/pocketlabs/ASTextFieldNode.git", :tag => "#{s.version}" }
   s.source_files  = "ASTextFieldNode", "ASTextFieldNode/*.{h,mm}"
-  s.dependency "AsyncDisplayKit", "~> 2.1.0"
+  s.dependency "AsyncDisplayKit", "~> 2.2"
 end
