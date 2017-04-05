@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ASTextFieldNode"
-  s.version      = "0.2.1"
+  s.version      = "0.2.2"
   s.summary      = "UITextField wrapper for AsyncDisplayKit."
   s.description  = <<-DESC
   UITextField wrapper for AsyncDisplayKit that can handle secure text entry.  Alternative to ASEditableTextNode.
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.author             = { "Kyle Shank" => "kyle.shank@gmail.com" }
   s.source       = { :git => "https://github.com/pocketlabs/ASTextFieldNode.git", :tag => "#{s.version}" }
   s.source_files  = "ASTextFieldNode", "ASTextFieldNode/*.{h,mm}"
-  s.dependency "AsyncDisplayKit", "~> 2.1.0"
+  s.dependency "AsyncDisplayKit", "~> 2.2"
 end
