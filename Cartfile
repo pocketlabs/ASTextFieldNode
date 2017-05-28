@@ -1,1 +1,1 @@
-github "facebook/AsyncDisplayKit" >= 2.0.2
+github "texturegroup/texture" ~> 2.3
